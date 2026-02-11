@@ -591,17 +591,13 @@ public final class DeviceOs {
     static final int OS_TYPE_OBRIC_UI = 12510861;
     static final String OS_NAME_OBRIC_UI = "ObricUI";
     /**
-     * [ro.build.id]: [1.1.0.0]
-     * [ro.product.build.id]: [1.1.0.0]
-     * [ro.system.build.id]: [1.1.0.0]
-     * [ro.system_ext.build.id]: [1.1.0.0]
-     * [ro.build.display.id]: [1.1.0.0 release-keys]
+     * [ro.os.ota.version]: [1.8.0.2-20260204-125753-RELEASE-user-pacific-b911]
+     * [ro.system_ext.ota.version]: [1.8.0.2-20260204-125753-RELEASE-user-pacific-b911]
+     * [persist.sys.monitor.ota]: [1.8.0.2-20260204-125753-RELEASE-user-pacific-b911]
      */
-    static final String[] OS_VERSION_NAME_OBRIC_UI = { "ro.build.id",
-                                                       "ro.product.build.id",
-                                                       "ro.system.build.id",
-                                                       "ro.system_ext.build.id",
-                                                       SYSTEM_PROPERTY_BUILD_DISPLAY_ID };
+    static final String[] OS_VERSION_NAME_OBRIC_UI = { "ro.os.ota.version",
+                                                       "ro.system_ext.ota.version",
+                                                       "persist.sys.monitor.ota" };
     /**
      * [init.svc.bytecellular]: [running]
      */
